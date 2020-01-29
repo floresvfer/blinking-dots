@@ -1,0 +1,7 @@
+<div class="board">
+  <app-dot
+    *ngFor="let div of divs"
+    [marginTop]="div.top"
+    [marginLeft]="div.left"
+    [dotSize]="div.type"></app-dot>
+</div>

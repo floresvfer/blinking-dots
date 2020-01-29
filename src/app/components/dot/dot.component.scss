@@ -1,0 +1,198 @@
+$dot-color: rgb(245, 245, 245);
+$dot-1: 5vh;
+$dot-2: $dot-1 - 0.5vh;
+$dot-3: $dot-2 - 0.5vh;
+$dot-4: $dot-3 - 0.5vh;
+$dot-5: $dot-4 - 0.5vh;
+
+
+@keyframes blinking {
+  0%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2),
+      0 0 11px 11px rgba($dot-color, 0.1),
+      0 0 13.2px 13.2px rgba($dot-color, 0.05),
+      0 0 15.4px 15.4px rgba($dot-color, 0.025)
+    ;
+  }
+
+  6.6%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2),
+      0 0 11px 11px rgba($dot-color, 0.1),
+      0 0 13.2px 13.2px rgba($dot-color, 0.05)
+  ;
+  }
+
+  13.2%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2),
+      0 0 11px 11px rgba($dot-color, 0.1)
+  ;
+  }
+
+  19.8%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2);
+  }
+
+  26.4%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3);
+  ;
+  }
+
+  33%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4);
+  ;
+  }
+
+  39.6%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5);
+  ;
+  }
+
+  46.2%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.45);
+  ;
+  }
+
+  52.8%{
+    box-shadow: 0 0 2.2px 2.2px rgba($dot-color, 0.5);
+  }
+
+  59.4%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4);
+  ;
+  }
+
+  66%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3);
+  ;
+  }
+
+  72.6%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2);
+  }
+
+
+  79.2%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2),
+      0 0 11px 11px rgba($dot-color, 0.1)
+  ;
+  }
+
+  85.8%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2),
+      0 0 11px 11px rgba($dot-color, 0.1),
+      0 0 13.2px 13.2px rgba($dot-color, 0.05)
+  ;
+  }
+
+
+  92.4%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2),
+      0 0 11px 11px rgba($dot-color, 0.1),
+      0 0 13.2px 13.2px rgba($dot-color, 0.05),
+      0 0 15.4px 15.4px rgba($dot-color, 0.025)
+  ;
+  }
+
+  99%{
+    box-shadow:
+      0 0 2.2px 2.2px rgba($dot-color, 0.5),
+      0 0 4.4px 4.4px rgba($dot-color, 0.4),
+      0 0 6.6px 6.6px rgba($dot-color, 0.3),
+      0 0 8.8px 8.8px rgba($dot-color, 0.2),
+      0 0 11px 11px rgba($dot-color, 0.1),
+      0 0 13.2px 13.2px rgba($dot-color, 0.05),
+      0 0 15.4px 15.4px rgba($dot-color, 0.025),
+      0 0 17.6px 17.6px rgba($dot-color, 0.0125)
+  ;
+  }
+}
+
+
+.dot {
+  box-shadow: 0 0 2.2px 2.2px rgba($dot-color, 0.5),
+  0 0 4.4px 4.4px rgba($dot-color, 0.4),
+  0 0 6.6px 6.6px rgba($dot-color, 0.3),
+  0 0 8.8px 8.8px rgba($dot-color, 0.2),
+  0 0 11px 11px rgba($dot-color, 0.1),
+  0 0 13.2px 13.2px rgba($dot-color, 0.05),
+  0 0 15.4px 15.4px rgba($dot-color, 0.025
+  );
+  background: $dot-color;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.dot.dot-1{
+  width: $dot-1;
+  height: $dot-1;
+  animation: blinking 1.5s infinite;
+}
+
+.dot.dot-2{
+    width: $dot-2;
+    height: $dot-2;
+  animation: blinking 2.7s infinite;
+}
+
+.dot.dot-3{
+  width: $dot-3;
+  height: $dot-3;
+  animation: blinking 1.9s infinite;
+}
+
+.dot.dot-4{
+  width: $dot-4;
+  height: $dot-4;
+  animation: blinking 2.4s infinite;
+}
+
+.dot.dot-5{
+  width: $dot-5;
+  height: $dot-5;
+  animation: blinking 1.3s infinite;
+}
+
