@@ -15,6 +15,12 @@ export class DotComponent implements OnInit {
   @Input()
   marginTop: number;
 
+  @Input()
+  crl: number;
+
+  @Input()
+  color: number;
+
   constructor() {
   }
 
@@ -22,8 +28,9 @@ export class DotComponent implements OnInit {
   }
 
   getClass() {
-    return this.dotSize > 5 ? 'dot dot-1' : 'dot dot-' + this.dotSize;
+    return 'dot dot-' + this.dotSize + ' crl-' + this.crl + ' bck-' + this.color;
   }
+
 
   getStyle() {
     return {

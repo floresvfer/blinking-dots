@@ -1,0 +1,11 @@
+<mat-grid-list [cols]="colsNo" [rowHeight]="rowHeight">
+  <mat-grid-tile
+    style="cursor: pointer"
+    (click)="goTo(1)"
+    *ngFor="let tile of tiles"
+    [colspan]="tile.cols"
+    [rowspan]="tile.rows">
+    <app-board [@inOutAnimation] [elements]="3" [margin]="0"></app-board>
+  </mat-grid-tile>
+</mat-grid-list>
+
